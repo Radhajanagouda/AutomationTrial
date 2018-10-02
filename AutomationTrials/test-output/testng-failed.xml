@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="automationTest.com.automation.test.trials.ListenersPrg"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="automationTest.com.automation.test.trials.Grouping">
+        <methods>
+          <include name="testMyObjectToString"/>
+        </methods>
+      </class> <!-- automationTest.com.automation.test.trials.Grouping -->
+      <class name="automationTest.com.automation.test.trials.TestCaseLoginForListeners">
+        <methods>
+          <include name="LoginPageForciblyFail"/>
+        </methods>
+      </class> <!-- automationTest.com.automation.test.trials.TestCaseLoginForListeners -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
