@@ -14,7 +14,7 @@ public class Grouping {
 		// _foreground = new MyObject();
 	}
 
-	@Test(groups = {"regression"})
+	@Test(groups = {"smoke"})
 	public void testMyObjectToString() throws Exception {
 		System.out.println("??? ");
 		System.out.println(_foreground == null);
