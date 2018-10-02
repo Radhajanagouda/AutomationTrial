@@ -10,7 +10,7 @@ public class Grouping {
 
 	@BeforeGroups(groups= {"smoke","regression"})
 	public void setUp() {
-		System.out.println("executed? setUp");
+		System.out.println("executed? setUp1233");
 		// _foreground = new MyObject();
 	}
 
